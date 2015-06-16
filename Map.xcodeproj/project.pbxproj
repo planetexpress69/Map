@@ -50,6 +50,7 @@
 		5B39171A1B3019F00040A15C /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pin.m; sourceTree = "<group>"; };
 		5B39171C1B301AA00040A15C /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
 		5B39171D1B301AA00040A15C /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		5B39171F1B3037F10040A15C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		5B3916E21B3017630040A15C = {
 			isa = PBXGroup;
 			children = (
+				5B39171F1B3037F10040A15C /* README.md */,
 				5B3917171B3017E90040A15C /* MapKit.framework */,
 				5B3916ED1B3017630040A15C /* Map */,
 				5B39170A1B3017640040A15C /* MapTests */,
