@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <MapKit/MapKit.h>
+#import "MKMapView+ZoomLevel.h"
 
 @interface ViewController ()
 @property (nonatomic, weak) IBOutlet MKMapView *theMapView;
@@ -18,6 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+
+    [super viewDidAppear:animated];
+    CLLocationCoordinate2D initialCenterCoordinate = CLLocationCoordinate2DMake(52.5, 13.4);
+    [self.theMapView setCenterCoordinate:initialCenterCoordinate zoomLevel:10 animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -17,6 +17,7 @@
 		5B39170E1B3017640040A15C /* MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B39170D1B3017640040A15C /* MapTests.m */; };
 		5B3917181B3017E90040A15C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3917171B3017E90040A15C /* MapKit.framework */; };
 		5B39171B1B3019F00040A15C /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B39171A1B3019F00040A15C /* Pin.m */; };
+		5B39171E1B301AA00040A15C /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B39171D1B301AA00040A15C /* MKMapView+ZoomLevel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		5B3917171B3017E90040A15C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5B3917191B3019F00040A15C /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pin.h; sourceTree = "<group>"; };
 		5B39171A1B3019F00040A15C /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pin.m; sourceTree = "<group>"; };
+		5B39171C1B301AA00040A15C /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		5B39171D1B301AA00040A15C /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 		5B3916ED1B3017630040A15C /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				5B39171C1B301AA00040A15C /* MKMapView+ZoomLevel.h */,
+				5B39171D1B301AA00040A15C /* MKMapView+ZoomLevel.m */,
 				5B3916F21B3017630040A15C /* AppDelegate.h */,
 				5B3916F31B3017630040A15C /* AppDelegate.m */,
 				5B3916F81B3017630040A15C /* ViewController.h */,
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3916F41B3017630040A15C /* AppDelegate.m in Sources */,
+				5B39171E1B301AA00040A15C /* MKMapView+ZoomLevel.m in Sources */,
 				5B3916F11B3017630040A15C /* main.m in Sources */,
 				5B3916FA1B3017630040A15C /* ViewController.m in Sources */,
 				5B39171B1B3019F00040A15C /* Pin.m in Sources */,
