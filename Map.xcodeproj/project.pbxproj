@@ -16,6 +16,7 @@
 		5B3917021B3017630040A15C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B3917001B3017630040A15C /* LaunchScreen.xib */; };
 		5B39170E1B3017640040A15C /* MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B39170D1B3017640040A15C /* MapTests.m */; };
 		5B3917181B3017E90040A15C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3917171B3017E90040A15C /* MapKit.framework */; };
+		5B39171B1B3019F00040A15C /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B39171A1B3019F00040A15C /* Pin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		5B39170C1B3017640040A15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B39170D1B3017640040A15C /* MapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTests.m; sourceTree = "<group>"; };
 		5B3917171B3017E90040A15C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5B3917191B3019F00040A15C /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pin.h; sourceTree = "<group>"; };
+		5B39171A1B3019F00040A15C /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				5B3917001B3017630040A15C /* LaunchScreen.xib */,
 				5B3916F51B3017630040A15C /* Map.xcdatamodeld */,
 				5B3916EE1B3017630040A15C /* Supporting Files */,
+				5B3917191B3019F00040A15C /* Pin.h */,
+				5B39171A1B3019F00040A15C /* Pin.m */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 				5B3916F41B3017630040A15C /* AppDelegate.m in Sources */,
 				5B3916F11B3017630040A15C /* main.m in Sources */,
 				5B3916FA1B3017630040A15C /* ViewController.m in Sources */,
+				5B39171B1B3019F00040A15C /* Pin.m in Sources */,
 				5B3916F71B3017630040A15C /* Map.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
