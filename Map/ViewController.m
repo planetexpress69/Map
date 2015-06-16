@@ -25,9 +25,8 @@
     [_theMapView addGestureRecognizer:longPressGestureRecognizer];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-
-    [super viewDidAppear:animated];
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     CLLocationCoordinate2D initialCenterCoordinate = CLLocationCoordinate2DMake(52.5, 13.4);
     [_theMapView setCenterCoordinate:initialCenterCoordinate zoomLevel:10 animated:YES];
     [self cleanSheet];
