@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <MapKit/MapKit.h>
 
 @interface ViewController ()
-
+@property (nonatomic, weak) IBOutlet MKMapView *theMapView;
 @end
 
 @implementation ViewController
